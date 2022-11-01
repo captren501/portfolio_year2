@@ -1,0 +1,11 @@
+.navbar{
+    width: 10rem;
+    height: 2rem;
+    margin-left: 40rem;
+    
+   
+    display: flex;
+    justify-content: space-between;
+    border-style: double;
+    border-color: brown;
+}
