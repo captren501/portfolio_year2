@@ -6,6 +6,7 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Layout from './Pages/Layout';
+import Info from './Pages/Info';
 // import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider, Route,} from 'react-router-dom';
 
@@ -25,6 +26,10 @@ const router = createBrowserRouter ([
   {
     path: '/Layout',
     element: <Layout/>
+  },
+  {
+    path: '/Info',
+    element: <Info/>
   },
 ]);
 

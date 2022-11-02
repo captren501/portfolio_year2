@@ -4,15 +4,16 @@ const Contact = () => {
 
 
 
-    return <div>
-     <h1>Contact page</h1>
+    return <div>  
 <nav>
     <div  className={'navbar'}>
         <Link to="/About">About</Link>
-        <Link to="/Home">Home</Link>
+        <Link to="/">Home</Link>
+        <Link to="/Info">Info</Link>
     </div>
 
 </nav>
+<h1>Contact page</h1>
      </div>
 };
 

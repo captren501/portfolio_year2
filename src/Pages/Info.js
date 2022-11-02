@@ -1,21 +1,19 @@
 import '../Styles/styles.css'
 import { Link } from "react-router-dom";
 
-const About = () => {
+const Info = () => {
 
 
-    return <div>     
+    return <div>
         <nav>
-    <div  className={'navbar'}>
+    <div className={'navbar'}>
         <Link to="/">Home</Link>
         <Link to="/Contact">Contact</Link>
-        <Link to="/Info">Info</Link>
+        <Link to="/About">About</Link>
     </div>
-    </nav>
-<h1>About page</h1>
-
-
-</div>
+</nav>
+<h1>Info page</h1>
+        </div>
 };
 
-export default About;
+export default Info;
