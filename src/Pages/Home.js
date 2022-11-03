@@ -12,13 +12,17 @@ const Home = () => {
         <Link to="/Info">Info</Link>
         </div>
     </nav> 
+
+    <br></br>
  <h1>Home page</h1>
 
  <br></br><br></br><br></br>
 
     <div className={'textbox'}>
         <h2>BOX1</h2>
-        <p>/////</p>
+        <p>/////  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eos blanditiis, eius dolores 
+            quisquam voluptatum! Impedit rerum corrupti, repellat soluta quos ad quas 
+            exercitationem atque, laborum magni suscipit rem itaque!</p>
     </div>
 
 </div>
