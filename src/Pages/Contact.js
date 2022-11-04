@@ -5,16 +5,17 @@ const Contact = () => {
 
 
     return <div>  
-<nav>
-    <div  className={'navbar'}>
+<nav className={'navbar'}>
         <Link to="/About">About</Link>
         <Link to="/">Home</Link>
         <Link to="/Info">Info</Link>
-    </div>
-
+    
 </nav>
+<br></br>
 <h1>Contact page</h1>
-     </div>
+<br></br>
+
+</div>
 };
 
 export default Contact;
