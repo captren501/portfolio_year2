@@ -14,11 +14,11 @@ const Info = () => {
     <br></br>
     <h1>Info page</h1>
     <br></br>
-
-    <div>
-        <h2>links</h2>
-        
-    </div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
 </div>
 };
 
