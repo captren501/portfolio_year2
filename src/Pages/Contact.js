@@ -6,8 +6,9 @@ const Contact = () => {
 
     return <div>  
 <nav className={'navbar'}>
-        <Link to="/About">About</Link>
         <Link to="/">Home</Link>
+        <Link to="/About">About</Link>
+        <Link to="/Contact">Contact</Link>
         <Link to="/Info">Info</Link>
     
 </nav>

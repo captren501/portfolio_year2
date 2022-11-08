@@ -6,6 +6,7 @@ const Home = () => {
 
     return <div>
     <nav className={'navbar'}>
+        <Link to="/">Home</Link> 
         <Link to="/About">About</Link>
         <Link to="/Contact">Contact</Link>
         <Link to="/Info">Info</Link>
@@ -38,6 +39,7 @@ const Home = () => {
             quisquam voluptatum! Impedit rerum corrupti, repellat soluta quos ad quas 
             exercitationem atque, laborum magni suscipit rem itaque!</p>
     </div>
+    <br></br>
 </div>
 };
 
