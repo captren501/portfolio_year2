@@ -18,7 +18,7 @@ const Home = () => {
 
     <img src='https://res.cloudinary.com/doyugobwh/image/upload/v1666736115/person3_vrixfd.jpg' alt='Apple Pie' className='image'></img>
  <br></br><br></br><br></br>
-
+    
     <div className={'textbox'}>
         <h2>BOX1</h2>
         <p>/////  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eos blanditiis, eius dolores 

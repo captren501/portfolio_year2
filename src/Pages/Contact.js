@@ -15,6 +15,11 @@ const Contact = () => {
 <br></br>
 <h1>Contact page</h1>
 <br></br>
+    <div>
+    <h3>Phone Number</h3>
+    <p>602-597-1417</p>
+    </div>
+
 
 </div>
 };

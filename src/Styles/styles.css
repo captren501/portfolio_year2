@@ -67,6 +67,14 @@ body {
     padding: .4vw;
 }
 
+.link {
+    display:flex;
+    justify-content: center;
+    border-color: aquamarine;
+    border: double;
+    flex-direction: column;
+}
+
 .textbox p{
     text-align: center;
     justify-items: center;
