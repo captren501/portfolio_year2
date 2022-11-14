@@ -15,6 +15,17 @@ const Contact = () => {
 <br></br>
 <h1>Contact page</h1>
 <br></br>
+<div className='link'>
+    <li><a href='https://github.com/captren501'>GitHub link</a></li>
+    <li><a href='https://www.linkedin.com/in/ethan-langford-36a389236/'>linkedin</a></li>
+    </div>
+
+    <div>
+        <h4>gmail</h4>
+        <p>elangf725@west-mec.org: school email</p>
+        <p>  : pro email</p>
+    </div>
+
     <div>
     <h3>Phone Number</h3>
     <p>602-597-1417</p>
