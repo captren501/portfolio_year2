@@ -1,9 +1,15 @@
+import { useState, useEffect} from 'react';
 import '../Styles/styles.css'
 import { Link } from "react-router-dom";
+
 const Home = () => {
 
+function State({initialState}) {
+    const [State, setState] = useState(initialState);
+    };
 
 
+//start of HTML
     return <div>
     <nav className={'navbar'}>
         <Link to="/">Home</Link> 
@@ -14,7 +20,7 @@ const Home = () => {
 
     <br></br>
  <h1>Home page</h1>
-<br></br>
+    <br></br>
 
     <img src='https://res.cloudinary.com/doyugobwh/image/upload/v1666736115/person3_vrixfd.jpg' alt='Apple Pie' className='image'></img>
  <br></br><br></br><br></br>

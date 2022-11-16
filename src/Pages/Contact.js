@@ -1,17 +1,19 @@
+import { useState } from 'react';
 import '../Styles/styles.css'
 import { Link } from "react-router-dom";
+
 const Contact = () => {
 
-
-
+    
+//start of HTML
     return <div>  
-<nav className={'navbar'}>
+<nav className={'navbar2'}>
         <Link to="/">Home</Link>
         <Link to="/About">About</Link>
         <Link to="/Contact">Contact</Link>
         <Link to="/Info">Info</Link>
-    
 </nav>
+
 <br></br>
 <h1>Contact page</h1>
 <br></br>
@@ -23,7 +25,7 @@ const Contact = () => {
     <div>
         <h4>gmail</h4>
         <p>elangf725@west-mec.org: school email</p>
-        <p>  : pro email</p>
+        <p>  : professional email</p>
     </div>
 
     <div>
@@ -31,7 +33,10 @@ const Contact = () => {
     <p>602-597-1417</p>
     </div>
 
-
+{/* useState
+    useEffect
+    useReducer
+    useRef */}
 </div>
 };
 
