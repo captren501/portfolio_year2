@@ -94,6 +94,41 @@ body {
     padding: .4vw;
 }
 
+.textboxS {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border-style: dashed;
+    margin-top: 5vw;
+    margin-bottom: 1vw;
+    width: 30vw;
+    height: 20vh;
+    margin-left: 8vw;
+    padding: .4vw;
+    
+}
+/* small box */
+
+.textboxSR {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border-style: dashed;
+    margin-top: -13vw;
+    margin-bottom: 1vw;
+    width: 30vw;
+    height: 20vh;
+    margin-right: 10vw;
+    padding: .4vw;
+    float: right;
+    
+}
+/* small box to right */
+
 .link {
     display:flex;
     justify-content: center;

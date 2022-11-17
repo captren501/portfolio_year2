@@ -25,7 +25,10 @@ const About = () => {
 <h1>About page</h1>
     <br></br>
     
-    <div className={'textbox'}>
+    <img src='https://res.cloudinary.com/doyugobwh/image/upload/v1666736115/person3_vrixfd.jpg' alt='Apple Pie' className='image'></img>
+ <br></br><br></br><br></br>
+ 
+    <div className={'textboxS'}>
     <h2> About Me</h2>
         <p>
             I lived in chelas washington and lived there 9 years.//\\Lorem ipsum dolor sit, amet consectetur 
@@ -33,7 +36,30 @@ const About = () => {
             fuga assumenda id nesciunt, illum explicabo adipisci, consequatur animi voluptatem culpa molestias!
         </p>
     </div>
-
+    <div className={'textboxSR'}>
+    <h2> About Me</h2>
+        <p>
+            I lived in chelas washington and lived there 9 years.//\\Lorem ipsum dolor sit, amet consectetur 
+            adipisicing elit. Obcaecati sed dolours libero qui maxime totam itaque omnis eius
+            fuga assumenda id nesciunt, illum explicabo adipisci, consequatur animi voluptatem culpa molestias!
+        </p>
+    </div>
+    <div className={'textboxS'}>
+    <h2> About Me</h2>
+        <p>
+            I lived in chelas washington and lived there 9 years.//\\Lorem ipsum dolor sit, amet consectetur 
+            adipisicing elit. Obcaecati sed dolours libero qui maxime totam itaque omnis eius
+            fuga assumenda id nesciunt, illum explicabo adipisci, consequatur animi voluptatem culpa molestias!
+        </p>
+    </div>
+    <div className={'textboxSR'}>
+    <h2> About Me</h2>
+        <p>
+            I lived in chelas washington and lived there 9 years.//\\Lorem ipsum dolor sit, amet consectetur 
+            adipisicing elit. Obcaecati sed dolours libero qui maxime totam itaque omnis eius
+            fuga assumenda id nesciunt, illum explicabo adipisci, consequatur animi voluptatem culpa molestias!
+        </p>
+    </div>
 
 </div>
 };

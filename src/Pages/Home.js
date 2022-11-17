@@ -22,8 +22,6 @@ function State({initialState}) {
  <h1>Home page</h1>
     <br></br>
 
-    <img src='https://res.cloudinary.com/doyugobwh/image/upload/v1666736115/person3_vrixfd.jpg' alt='Apple Pie' className='image'></img>
- <br></br><br></br><br></br>
     
     <div className={'textbox'}>
         <h2>BOX1</h2>
