@@ -42,10 +42,9 @@ function State({initialState}) {
     <div className={'textbox'}>
         <h2>BOX1</h2>
         <p>/////  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eos blanditiis, eius dolores 
-            quisquam voluptatum! Impedit rerum corrupti, <span id="dots">...</span><span id="more"></span>repellat 
+            quisquam voluptatum! Impedit rerum corrupti, <span id="dots">...</span><span id="more">repellat 
             soluta quos ad quas 
-            exercitationem atque, laborum magni suscipit rem itaque!</p>
-
+            exercitationem atque, laborum magni suscipit rem itaque!</span></p>
             <button onclick="myFunction()" id="myBtn">Read more</button>
     </div>
 
