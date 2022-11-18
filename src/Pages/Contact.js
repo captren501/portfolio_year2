@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../Styles/styles.css'
+import '../Styles/bace.css'
 import { Link } from "react-router-dom";
 
 const Contact = () => {
@@ -7,11 +7,11 @@ const Contact = () => {
     
 //start of HTML
     return <div>  
-<nav className={'navbar2'}>
+<nav className={'navbar'}>
         <Link to="/">Home</Link>
         <Link to="/About">About</Link>
         <Link to="/Contact">Contact</Link>
-        <Link to="/Info">Info</Link>
+        <Link to="/Info">Gallery</Link>
 </nav>
 
 <br></br>
