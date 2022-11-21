@@ -7,16 +7,20 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-color: black;
-    color: whitesmoke;
+    color: rgb(203, 203, 203);
     max-width: 100vw;
+    min-width: 100vw;
     min-height: 100vh;
     margin-bottom: -4vh;
+    flex-direction: column;
+    display: flex;
     // overflow:hidden;
 
 
  .navbar{
-    max-width: 100vw;
-    width: 100vw;
+    max-width: 100%;
+    
+    // width: 100vw;
     margin-top: .1vh;
     display: flex; 
     gap: 2vw;
@@ -34,15 +38,16 @@ body {
     
     a {
         text-decoration: none;
-        color: whitesmoke;
+        color: rgb(203, 203, 203);
         width: 10vw;
         text-align: center;
         background-color: #4a895a;
         border-radius: 0.75vw;
-        border-color: whitesmoke;
+        border-color: rgb(203, 203, 203);
         border-style: ridge;
         border-width: 0.25vw;
         user-select: none;
+        position: fixed;
     }
  }
 
@@ -77,8 +82,10 @@ body {
      'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     }
     
-    #more {display: none;}
+    
 }
+
+#more {display: none;}
 
 .textboxS {
     display: flex;

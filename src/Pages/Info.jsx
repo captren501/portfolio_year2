@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Info = () => {
 
-
-
+//Gallery
+//rename to Gallery
 //start of HTML
     return <div>
     <nav className={'navbar'}>
