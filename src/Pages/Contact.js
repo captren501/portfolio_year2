@@ -22,6 +22,11 @@ const Contact = () => {
     <li><a href='https://www.linkedin.com/in/ethan-langford-36a389236/'>linkedin</a></li>
     </div>
 
+<div className='gmail'>
+   <input type={'email'} placeholder={'email username'}></input>
+   <input type={'email'} placeholder={'password'}></input>
+</div>
+
     <div>
         <h4>gmail</h4>
         <p>elangf725@west-mec.org: school email</p>

@@ -20,7 +20,7 @@ body {
  .navbar{
     max-width: 100%;
     
-    // width: 100vw;
+    width: 100vw;
     margin-top: .1vh;
     display: flex; 
     gap: 2vw;
@@ -47,7 +47,7 @@ body {
         border-style: ridge;
         border-width: 0.25vw;
         user-select: none;
-        position: fixed;
+        // position: fixed;
     }
  }
 
