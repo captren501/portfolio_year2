@@ -25,6 +25,7 @@ const Contact = () => {
 <div className='gmail'>
    <input type={'email'} placeholder={'email username'}></input>
    <input type={'email'} placeholder={'password'}></input>
+   <button>submit</button>
 </div>
 
     <div>

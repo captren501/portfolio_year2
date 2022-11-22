@@ -143,6 +143,25 @@ body {
     flex-direction: column;
 }
 
+.gmail {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 2;
+
+    input {
+        // border-color: green;
+        border-radius: .1vw;
+        border-style: none;
+    }
+
+    button {
+        border-radius: 3px;
+        border-style: none;
+        border-color: red;
+    }
+}
 
 
 

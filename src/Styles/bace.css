@@ -125,6 +125,22 @@ body .link {
   border: double;
   flex-direction: column;
 }
+body .gmail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2;
+}
+body .gmail input {
+  border-radius: 0.1vw;
+  border-style: none;
+}
+body .gmail button {
+  border-radius: 3px;
+  border-style: none;
+  border-color: red;
+}
 
 /* .textbox p{
     display: flex;
