@@ -4,15 +4,22 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
 
-function State({initialState}) {
-    const [State, setState] = useState(initialState);
-    };
-// sample code
-    function myFunction() {
+
+    const [read, setRead] = useState("read more");
+    const handleClick = () =>{
+    if (read === "read more") {
+        setRead("read less");
+      } else {
+        setRead("read more");
+      }
+};
+    
+
+    function myFunction () {
         var dots = document.getElementById("dots");
         var moreText = document.getElementById("more");
         var btnText = document.getElementById("myBtn");
-      
+        console.log(dots)
         if (dots.style.display === "none") {
           dots.style.display = "inline";
           btnText.innerHTML = "Read more";
@@ -21,6 +28,7 @@ function State({initialState}) {
           dots.style.display = "none";
           btnText.innerHTML = "Read less";
           moreText.style.display = "inline";
+          
         }
       };
     //   the js for read more function
@@ -42,11 +50,10 @@ function State({initialState}) {
     <div className={'textbox'}>
         <h2>BOX1</h2>
         <p>/////  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eos blanditiis, eius dolores 
-            quisquam voluptatum! Impedit rerum corrup<span id="dots">...</span><span id="more">it repellat 
-            soluta quos ad quas 
-            exercitationem atque, laborum magni suscipit rem itaque!</span></p>
-            <button onclick="myFunction()" id="myBtn">Read more</button>
-    </div>
+            quisquam voluptatum! Impedit rerum corrup<span id="more">it repellat soluta quos ad quas exercitationem 
+            atque, laborum magni suscipit rem itaque!</span><span id="dots" onClick={()=>myFunction}>...{read}</span></p>
+            {/* <button id="myBtn">Read more</button> */}
+    </div> 
 
     <div className={'textbox'}>
     <h2>BOX2</h2>

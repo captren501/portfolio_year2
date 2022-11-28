@@ -85,7 +85,9 @@ body {
     
 }
 
-#more {display: none;}
+#more {display: none;
+
+}
 
 .textboxS {
     display: flex;
@@ -161,10 +163,13 @@ body {
         border-style: none;
         border-color: red;
     }
+
+
 }
 
+ 
 
-
+};
 // .textbox p{
 //     text-align: center;
 //     justify-items: center;
@@ -192,7 +197,7 @@ body {
 // }
 // /* text font */
 
-}
+
 /* .textbox p{
     display: flex;
     justify-content:center;
