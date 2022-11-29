@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 
 const Info = () => {
 
-//Gallery
-//rename to Gallery
+//this is Resume
+//rename to Resume
 //start of HTML
     return <div>
     <nav className={'navbar'}>
         <Link to="/">Home</Link>
         <Link to="/About">About</Link>
         <Link to="/Contact">Contact</Link>
-        <Link to="/Info">Gallery</Link>
+        <Link to="/Info">Resume</Link>
     </nav>
 
     <br></br>

@@ -11,7 +11,6 @@ body {
   flex-direction: column;
   display: flex;
   /* small box */
-  /* small box to right */
 }
 body .navbar {
   max-width: 100%;
@@ -74,8 +73,9 @@ body .textbox p {
   font-size: 120%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
 }
-body #more {
-  display: none;
+body .readmore {
+  color: rgb(73, 73, 255);
+  font-size: 80%;
 }
 body .textboxS {
   display: flex;
@@ -84,35 +84,13 @@ body .textboxS {
   flex-direction: column;
   border-radius: 10px;
   border-style: dashed;
-  margin-top: 5vw;
+  margin-top: 2vw;
   margin-bottom: 1vw;
-  width: 35vw;
-  height: 17vh;
-  margin-left: 8vw;
+  margin-left: 40vw;
+  margin-right: 40vw;
   padding: 0.4vw;
 }
 body .textboxS p {
-  text-align: center;
-  justify-items: center;
-  font-size: 120%;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
-}
-body .textboxSR {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 10px;
-  border-style: dashed;
-  margin-top: -13vw;
-  margin-bottom: 1vw;
-  width: 35vw;
-  height: 20vh;
-  margin-right: 5vw;
-  padding: 0.4vw;
-  float: right;
-}
-body .textboxSR p {
   text-align: center;
   justify-items: center;
   font-size: 120%;

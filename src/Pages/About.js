@@ -5,28 +5,20 @@ import { Link } from "react-router-dom";
 const About = () => {
 
 
-    const [background, setBackground] = useState('');
-    const handleClick = () => {
-        setBackground({ ...background,});
-    };
-    //sample code
-    const myFunction = () => {
-        var dots = document.getElementById("dots");
-        var moreText = document.getElementById("more");
-        var btnText = document.getElementById("myBtn");
-      
-        if (dots.style.display === "none") {
-          dots.style.display = "inline";
-          btnText.innerHTML = "Read more";
-          moreText.style.display = "none";
-        } else {
-          dots.style.display = "none";
-          btnText.innerHTML = "Read less";
-          moreText.style.display = "inline";
-        }
-      };
+    var dots = document.getElementById("dots");
+  var btnText = document.getElementById("myBtn");
+    const [read, setRead] = useState("read more");
+    var moreText = document.getElementById("more");
+    const handleClick = () =>{
+    if (read === "read more") {
+      document.getElementById("more").style.display = "block";
+        setRead("read less");
+      } else {
+        document.getElementById("more").style.display = "none";
+        setRead("read more");
+      }
       // the Js for the show more function
-
+};
 //start of HTML
     return <div>     
         <nav className={'navbar'}>
@@ -47,19 +39,11 @@ const About = () => {
     <h2> About Me</h2>
         <p>
             I lived in chelas washington and lived there 9 years.//\\Lorem ipsum dolor sit, amet consectetur 
-            adipisicing elit. Obcaecati sed dolours libero qui maxime totam itaque omnis eius
-            Fula assumenda id nescients, illum explicabo adipisci, consequatur animi voluptatem culpa molestias!
+            adipisicing elit. <span className="readmore" id="dots" onClick={()=>handleClick()}>...{read}</span><span style={{display:"none"}} id="more">Obcaecati sed dolours libero qui maxime totam itaque omnis eius
+            Fula assumenda id nescients, illum explicabo adipisci, consequatur animi voluptatem culpa molestias!</span>
         </p>
     </div>
-    <div className={'textboxSR'}>
-    <h2> About Me</h2>
-        <p>
-            I lived in chelas washington and lived there 9 years.//\\Lorem ipsum dolor sit, amet consectetur 
-            adipisicing elit. Obcaecati sed dolours libero qui maxime total <span id="dots">...</span><span id="more"> repellat 
-            soluta quos ad quas 
-            exercitationem atque, laborum magni suscipit rem itaque!</span>
-        </p> <button onclick="myFunction()" id="myBtn">Read more</button>
-    </div>
+    
     <div className={'textboxS'}>
     <h2> About Me</h2>
         <p>
@@ -68,14 +52,7 @@ const About = () => {
             fuga assume id rescuing, illum explicabo adipisci, consequatur animi voluptatem culpa molestias!
         </p>
     </div>
-    <div className={'textboxSR'}>
-    <h2> About Me</h2>
-        <p>
-            I lived in chelas washington and lived there 9 years.//\\Lorem ipsum dolor sit, amet consectetur 
-            adipisicing elit. Obcaecati sed dolours libero qui maxime totam itaque omnis eius
-            fuga assumenda id nesciunt, illum explicator adipisci, consecrator anim voluptatem culpa molestias!
-        </p>
-    </div>
+    
 
 </div>
 };
