@@ -8,8 +8,10 @@ const Home = () => {
   var btnText = document.getElementById("myBtn");
     const [read, setRead] = useState("read more");
     const [read1, setRead1] = useState("read more");
+    const [read2, setRead2] = useState("read more");
     var moreText = document.getElementById("more");
     var moreText = document.getElementById("more1");
+    var moreText = document.getElementById("more2");
     const handleClick = () =>{
     if (read === "read more") {
       document.getElementById("more").style.display = "block";
@@ -29,7 +31,16 @@ const Home = () => {
           }
 
 };
-    
+const handleClick2 = () =>{
+  if (read2 === "read more") {
+    document.getElementById("more2").style.display = "block";
+      setRead2("read less");
+    } else {
+      document.getElementById("more2").style.display = "none";
+      setRead2("read more");
+    }
+
+};
 
     
 //start of HTML
@@ -38,7 +49,7 @@ const Home = () => {
         <Link to="/">Home</Link> 
         <Link to="/About">About</Link>
         <Link to="/Contact">Contact</Link>
-        <Link to="/Info">Gallery</Link>
+        <Link to="/Info">Resume</Link>
     </nav> 
 {/* navbar */}
     <br></br>
@@ -64,8 +75,8 @@ const Home = () => {
     <div className={'textbox'}>
     <h2>BOX3</h2>
         <p> The Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eos blanditiis, eius dolores 
-            quisquam voluptatum! Impedit rerum corrupti, repellat soluta quos ad quas 
-            exercitationem atque, laborum magni suscipit rem itaque!</p>
+            quisquam voluptatum! <span className="readmore" id="dots" onClick={()=>handleClick2()}>...{read2}</span><span style={{display:"none"}} id="more2">
+            Impedit rerum corrupti, repellat soluta quos ad quas exercitationem atque, laborum magni suscipit rem itaque!</span></p>
     </div>
     <br></br>
 

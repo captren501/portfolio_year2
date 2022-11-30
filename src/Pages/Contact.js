@@ -11,7 +11,7 @@ const Contact = () => {
         <Link to="/">Home</Link>
         <Link to="/About">About</Link>
         <Link to="/Contact">Contact</Link>
-        <Link to="/Info">Gallery</Link>
+        <Link to="/Info">Resume</Link>
 </nav>
 
 <br></br>
