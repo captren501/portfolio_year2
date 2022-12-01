@@ -105,19 +105,46 @@ body .link {
 }
 body .gmail {
   display: flex;
-  flex-direction: column;
+  padding: 0;
+  margin-left: 5vw;
+  margin-right: 50vw;
+  margin-top: 5vh;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  text-align: center;
   justify-content: center;
-  align-items: center;
+  align-content: center;
+  flex-direction: column;
   gap: 2;
+  border-style: solid;
+  border-color: red;
+}
+body .gmail p {
+  padding: 0;
+  text-align: left;
 }
 body .gmail input {
   border-radius: 0.1vw;
   border-style: none;
+  padding: 1vw;
+  gap: 2vw;
 }
 body .gmail button {
   border-radius: 3px;
   border-style: none;
   border-color: red;
+  background-color: #808080;
+  color: whitesmoke;
+}
+body .gmail textarea {
+  margin: 0;
+  padding: 0;
+  resize: none;
+  min-height: 10vh;
+  align-self: center;
+  justify-self: center;
+  background-color: #808080;
+  color: whitesmoke;
 }
 
 /* .textbox p{
