@@ -1,10 +1,16 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import '../Styles/bace.css'
 import { Link } from "react-router-dom";
 
 const Contact = () => {
 
+useEffect(() => {
+
+    }, []);
     
+    
+    
+    console.log("onClick")
 //start of HTML
     return <div>  
 <nav className={'navbar'}>
@@ -22,16 +28,17 @@ const Contact = () => {
 
     <div className='gmail'>
         <p>First Name</p>
-        <input type={'text'}></input>
+        <input type={'text'} id="myInput"></input>
         <p>Last Name</p>
-        <input type={'text'}></input>
+        <input type={'text'} id="myInput"></input>
         <p>Email</p>
-        <input type={'email'} placeholder={'username'}></input>
+        <input type={'email'} placeholder={'username'} id="myInput"></input>
         <p>Message</p>
-        <textarea placeholder='message' maxLength={'100'}></textarea>
-        <button>Submit</button>
+        <textarea placeholder='message' maxLength={'200'} id="myInput"></textarea>
+        <button onClick={()=>document.getElementById("myInput").value = ''()}>Submit</button>
+        
     </div>
-
+    
 </div>
 
     {/* <div>

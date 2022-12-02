@@ -126,8 +126,11 @@ body .gmail p {
 body .gmail input {
   border-radius: 0.1vw;
   border-style: none;
-  padding: 1vw;
+  padding: 0.7vw;
   gap: 2vw;
+  background-color: #808080;
+  font-weight: 400;
+  font-size: small;
 }
 body .gmail button {
   border-radius: 3px;
@@ -135,12 +138,17 @@ body .gmail button {
   border-color: red;
   background-color: #808080;
   color: whitesmoke;
+  padding: 0.3vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
 }
 body .gmail textarea {
   margin: 0;
-  padding: 0;
   resize: none;
-  min-height: 10vh;
+  min-height: 7vw;
+  max-width: 40vw;
   align-self: center;
   justify-self: center;
   background-color: #808080;
