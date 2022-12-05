@@ -24,7 +24,7 @@ const Info = () => {
             exercitation antique, labours Magna subscript rem statue!</p>
         
     </div>
-    
+    {/* make resume */}
     
    
 </div>

@@ -56,7 +56,9 @@ const handleClick2 = () =>{
  <h1>Home page</h1> {/* sample */}
     <br></br>
 
-    {/* {read} */}
+    <img src='https://res.cloudinary.com/doyugobwh/image/upload/v1668803030/Ethan_rpugqs.jpg' alt='page owner' className='image'></img>
+ <br></br><br></br>
+
     <div className={'textbox'}>
         <h2>BOX1</h2>
         <p>/ Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eos blanditiis, eius dolores 

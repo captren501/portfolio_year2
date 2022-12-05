@@ -4,9 +4,10 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
 
-useEffect(() => {
-
-    }, []);
+    const [count, setCount] = useState(0);
+    
+    useEffect(() => {
+    }, [count]);
     
     
     
@@ -23,9 +24,7 @@ useEffect(() => {
 <br></br>
 <h1>Contact page</h1>
 <br></br>
-
-<div className='contact_box'>
-
+<div className='container'>
     <div className='gmail'>
         <p>First Name</p>
         <input type={'text'} id="myInput"></input>
@@ -35,28 +34,25 @@ useEffect(() => {
         <input type={'email'} placeholder={'username'} id="myInput"></input>
         <p>Message</p>
         <textarea placeholder='message' maxLength={'200'} id="myInput"></textarea>
-        <button onClick={()=>document.getElementById("myInput").value = ''()}>Submit</button>
-        
+        <button onClick={() => setCount((c) => c + 1)}>Submit</button>
+        <p>count: {count}</p>
+        {/* ask how to delete text in text box */}
+    {/* // document.getElementById("myInput").value = ''() */}
     </div>
-    
+        
+    <h2 className='textboxP3'>Lorem</h2>
+    {/* add text */}
 </div>
 
-    {/* <div>
-        <h4>gmail</h4>
-        <p>elangf725@west-mec.org: school email</p>
-        <p>  : professional email</p>
-    </div>
+    
 
-    <div>
-    <h3>Phone Number</h3>
-    <p>602-597-1417</p>
-    </div> */}
-
-{/* useState
+ </div>
+    {/* useState
     useEffect
     useReducer
     useRef */}
-</div>
+
+
 };
 
 export default Contact;

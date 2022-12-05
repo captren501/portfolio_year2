@@ -44,9 +44,7 @@ const handleClick1 = () =>{
 <h1>About page</h1> {/* sample */}
     <br></br>
     
-    <img src='https://res.cloudinary.com/doyugobwh/image/upload/v1668803030/Ethan_rpugqs.jpg' alt='page owner' className='image'></img>
- <br></br><br></br>
-
+<div className='container'>
     <div className={'textboxS'}>
     <h2> About Me</h2>
         <p>
@@ -66,8 +64,9 @@ const handleClick1 = () =>{
         </p>
     </div>
     
-
 </div>
+
+</div>//nav div
 };
 
 export default About;
