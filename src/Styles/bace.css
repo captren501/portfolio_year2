@@ -49,10 +49,9 @@ body .image {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  width: 20vw;
-  height: auto;
-  margin: auto;
+  min-width: 30%;
+  max-width: 30%;
+  margin: 1vw auto;
 }
 body .textbox {
   display: flex;
@@ -61,6 +60,7 @@ body .textbox {
   flex-direction: column;
   border-radius: 10px;
   border-style: dashed;
+  border-color: rgb(129, 216, 151);
   margin-top: 1vw;
   margin-bottom: 1vw;
   margin-left: 20vw;
@@ -84,8 +84,8 @@ body .textboxS {
   flex-direction: column;
   border-radius: 5px;
   border-style: dashed;
-  margin: 4vw auto 4vw 2vw;
-  min-width: 15%;
+  margin: 2vw 4vw 2vw 14vw;
+  min-width: 25%;
   max-width: 15%;
   overflow-y: auto;
   padding: 0.4vw;
@@ -95,6 +95,13 @@ body .textboxS p {
   justify-items: center;
   font-size: 120%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+body .textboxS a {
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
 }
 body .link {
   display: flex;

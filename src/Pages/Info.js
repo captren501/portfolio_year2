@@ -9,7 +9,7 @@ const Info = () => {
     return <div>
     <nav className={'navbar'}>
         <Link to="/">Home</Link>
-        <Link to="/About">About</Link>
+        <Link to="/About">Gallery</Link>
         <Link to="/Contact">Contact</Link>
         <Link to="/Info">Resume</Link>
     </nav>

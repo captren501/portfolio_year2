@@ -9,6 +9,10 @@ const Contact = () => {
     useEffect(() => {
     }, [count]);
     
+    function refresh() {
+        window.location.reload();
+    }
+    
     
     
     console.log("onClick")
@@ -16,7 +20,7 @@ const Contact = () => {
     return <div>  
 <nav className={'navbar'}>
         <Link to="/">Home</Link>
-        <Link to="/About">About</Link>
+        <Link to="/About">Gallery</Link>
         <Link to="/Contact">Contact</Link>
         <Link to="/Info">Resume</Link>
 </nav>
@@ -34,8 +38,8 @@ const Contact = () => {
         <input type={'email'} placeholder={'username'} id="myInput"></input>
         <p>Message</p>
         <textarea placeholder='message' maxLength={'200'} id="myInput"></textarea>
-        <button onClick={() => setCount((c) => c + 1)}>Submit</button>
-        <p>count: {count}</p>
+        <button onClick={() => {setCount((c) => c + 1);refresh()}}>Submit</button>
+        <p>Submit: {count}</p>
         {/* ask how to delete text in text box */}
     {/* // document.getElementById("myInput").value = ''() */}
     </div>

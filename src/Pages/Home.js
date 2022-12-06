@@ -47,7 +47,7 @@ const handleClick2 = () =>{
     return <div>
     <nav className={'navbar'}>
         <Link to="/">Home</Link> 
-        <Link to="/About">About</Link>
+        <Link to="/About">Gallery</Link>
         <Link to="/Contact">Contact</Link>
         <Link to="/Info">Resume</Link>
     </nav> 
@@ -60,11 +60,10 @@ const handleClick2 = () =>{
  <br></br><br></br>
 
     <div className={'textbox'}>
-        <h2>BOX1</h2>
+        <h2>Who am I</h2>
         <p>/ Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eos blanditiis, eius dolores 
-          quisquam voluptatum! Impedit rerum corrup<span className="readmore" id="dots" onClick={()=>handleClick()}>...{read}</span><span style={{display:"none"}} id="more">
+          nunquam voluptuous! Impedit rerum corrup<span className="readmore" id="dots" onClick={()=>handleClick()}>...{read}</span><span style={{display:"none"}} id="more">
             it repellat soluta quos ad quas exercitationem atque, laborum magni suscipit rem itaque!</span></p>
-          {/* <button id="myBtn">Read more</button> */}
     </div> 
 
     <div className={'textbox'}>
