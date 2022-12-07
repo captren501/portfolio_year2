@@ -73,6 +73,9 @@ body .textbox p {
   font-size: 120%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
 }
+body .textbox h2 {
+  margin: 0.4vw;
+}
 body .readmore {
   color: rgb(73, 73, 255);
   font-size: 80%;
