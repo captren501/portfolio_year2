@@ -64,15 +64,17 @@ const handleClick2 = () =>{
           <h2>Who am I</h2>
           Hello my name is Ethan Langford and I'm 17 years old. I grue up in chelas washington in a family of 
           <span className="readmore" id="dots" onClick={()=>handleClick()}>...{read}</span><span style={{display:"none"}} id="more">
-          eight. moved to phenix AZ eight years ago; now taking coding classes at west-mec and enroled at 
-          Sandraday O'conner HS.</span></p>
+          eight. moved to phenix AZ eight years ago; now taking coding classes at west-mec and enrolled at 
+          Sandra day O'conner HS.</span></p>
     </div> 
 
     <div className={'textbox'}>
-    <h2>BOX2</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eos blanditiis, eius dolores 
-            quisquam voluptatum! <span className="readmore" id="dots" onClick={()=>handleClick1()}>...{read1}</span><span style={{display:"none"}} id="more1">
-            Impedit rerum corrupti, repellat soluta quos ad quas exercitationem atque, laborum magni suscipit rem itaque!</span></p>
+      <p>
+        <h2>Achements</h2>
+        
+        <span className="readmore" id="dots" onClick={()=>handleClick1()}>...{read1}</span><span style={{display:"none"}} id="more1">
+        Impedit rerum corrupti, repellat soluta quos ad quas exercitationem atque, laborum magni suscipit
+        rem itaque!</span></p>
     </div>
 
     <div className={'textbox'}>
