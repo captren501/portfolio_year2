@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     display: flex;
     // overflow:hidden;
-@media screen and (min-width: 750px) and (max-width: 5000px) {
+@media screen and (min-width: 920px) and (max-width: 5000px) {
 
 
  .navbar{
@@ -95,7 +95,11 @@ color: rgb(73, 73, 255);
 font-size: 80%;
 }
 
-.textboxS {
+.container{
+    display: flex;
+    flex-direction: row;
+
+.textboxS { /* small box */
     display: flex;
     justify-content:center;
     align-items: center;
@@ -124,7 +128,8 @@ font-size: 80%;
     }
     
 }
-/* small box */
+
+}
 
 
 .link {
@@ -135,7 +140,7 @@ font-size: 80%;
     flex-direction: column;
 }
 
-.container{
+.container1{
 display: flex;
 flex-direction: row;
 
@@ -225,7 +230,7 @@ flex-direction: row;
  
 }
 
-@media screen and (max-width: 749px) and (min-width: 300px){
+@media screen and (max-width: 920px) and (min-width: 250px){
 
     
     .navbar{
@@ -233,7 +238,7 @@ flex-direction: row;
         width: 100vw;
         margin-top: .1vh;
         display: flex; 
-        gap: 2vw;
+        gap: 4vw;
         position:fixed;
         justify-content: center;
         border-style: solid;
@@ -244,12 +249,12 @@ flex-direction: row;
         padding: 0.7vh;
         background-color: rgba(39, 166, 168, 0.622);
         font-weight: 600;
-        font-size: 2.9vw;
+        font-size: 5vw;
         
         a {
             text-decoration: none;
             color: rgb(203, 203, 203);
-            width: 15vw;
+            width: 19vw;
             text-align: center;
             background-color: #4a895a;
             border-radius: 0.75vw;
@@ -265,7 +270,7 @@ flex-direction: row;
         display: flex;
         align-items: center;
         justify-content: center;
-        min-width: 50%;
+        min-width: 70%;
         max-width: 30%;
         margin: 1vw auto;
     
@@ -281,8 +286,8 @@ flex-direction: row;
         border-color: rgb(129, 216, 151);
         margin-top: 1vw;
         margin-bottom: 1vw;
-        margin-left: 10vw;
-        margin-right: 10vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
         padding: .4vw;
         p {
             text-align: center;
@@ -304,7 +309,8 @@ flex-direction: row;
     font-size: 80%;
     }
     
-    .textboxS {
+    
+    .textboxS { /* small box */
         display: flex;
         justify-content:center;
         align-items: center;
@@ -312,8 +318,8 @@ flex-direction: row;
         border-radius: 5px;
         border-style: dashed;
         margin: 2vh auto;
-        min-width: 45%;
-        max-width: 30%;
+        min-width: 80%;
+        max-width: 50%;
         overflow-y: auto;
         padding: .4vw;
         p {
@@ -333,9 +339,8 @@ flex-direction: row;
         }
         
     }
-    /* small box */
-    
-    
+
+
     .link {
         display:flex;
         justify-content: center;
@@ -344,18 +349,18 @@ flex-direction: row;
         flex-direction: column;
     }
     
-    .container{
-    display: flex;
-    flex-direction: row;
+    // .container1{
+    // display: flex;
+    // flex-direction: row;
     
     
       .gmail {
         display: flex;
         padding: 0;
-        margin: 1vw 3vw 5vw 4vw;
+        margin: 0vw auto;
         overflow-y: auto;
-        min-width: 40%;
-        max-width: 30%;
+        min-width: 70%;
+        max-width: 50%;
         padding-left: 0.5vw;
         padding-right: 0.5vw;
         text-align: center;
@@ -369,6 +374,8 @@ flex-direction: row;
         p {
             padding: 0;
             text-align:left;
+            font-size: 4vw;
+            font-weight: 500;
         }
     
         input {
@@ -388,10 +395,10 @@ flex-direction: row;
             border-color: red;
             background-color: #808080;
             color: whitesmoke;
-            padding: 0.3vw;
+            padding: 0.7vw;
             margin-left: 10vw;
             margin-right: 10vw;
-            margin-top: 0.5vw;
+            margin-top: 1vw;
             margin-bottom: 0.5vw;
         }
     
@@ -414,10 +421,9 @@ flex-direction: row;
         align-items: center;
         flex-direction: column;
         border-style: solid; //set to invisible when completed
-        margin: 12vh 3vw 12vh;
-    
+        margin: 3vh auto;
         overflow-y: auto;
-        min-width: 40%;
+        min-width: 80%;
         max-width: 30%;
         padding: .4vw;
        
@@ -432,7 +438,7 @@ flex-direction: row;
     
     }
 }    
-}
+// }
 // .textbox p{
 //     text-align: center;
 //     justify-items: center;

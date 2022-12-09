@@ -14,7 +14,7 @@ const About = () => {
         <Link to="/Info">Resume</Link>
     </nav>
 {/* navbar */}
-    <br></br><br></br>
+    <br></br><br></br><br></br><br></br>
 {/* <h1>gallery page</h1>  */}
     
 <div className='container'>
@@ -23,7 +23,7 @@ const About = () => {
 
         <p>
             I lived in chelas washington and lived there 9 years.//\\Lorem ipsum dolor sit, amet consectetur 
-            adipisicing elit. Obcaecati sed dolours libero qui maxime totam itaque omnis eius
+            adipisicing elit. 
             <a href='https://github.com/RogerRandomDev/BingeBakery.git'>github/BingeBakery</a>
         </p>
     </div>
@@ -32,7 +32,7 @@ const About = () => {
     <h2>sci-floors</h2>
         <p>
             I lived in chelas washington and lived there 9 years.//\\Lorem ipsum dolor sit,
-            amet consectetur adipisicing elit. Obcaecati sed dolours libero qui maxime totam itaque omnis eius
+            amet consectetur adipisicing elit.
             <a href='https://github.com/Victor-Malhotra/sci-floors.git'>github/sci-floors</a>
         </p>
     </div>
@@ -44,7 +44,7 @@ const About = () => {
     <h2>Tours</h2>
         <p>
             I lived in chelas washington and lived there 9 years.//\\Lorem ipsum dolor sit, amet consectetur 
-            adipisicing elit. Obcaecati sed dolours libero qui maxime totam itaque omnis eius
+            adipisicing elit. 
             <a href='https://github.com/captren501/Tours.git'>github/Tours</a>
         </p>
     </div>
@@ -53,7 +53,7 @@ const About = () => {
     <h2>poke</h2>
         <p>
             I lived in chelas washington and lived there 9 years.//\\Lorem ipsum dolor sit,
-            amet consectetur adipisicing elit. Obcaecati sed dolours libero qui maxime totam itaque omnis eius
+            amet consectetur adipisicing elit. 
             <a href='https://github.com/RogerRandomDev/poke.git'>github/poke</a>
         </p>
     </div>

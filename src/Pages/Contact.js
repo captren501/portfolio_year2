@@ -26,9 +26,8 @@ const Contact = () => {
 </nav>
 
 <br></br>
-<h1>Contact page</h1>
-<br></br>
-<div className='container'>
+<br></br><br></br><br></br><br></br>
+<div className='container1'>
     <div className='gmail'>
         <p>First Name</p>
         <input type={'text'} id="myInput"></input>
