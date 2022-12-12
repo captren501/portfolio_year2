@@ -17,15 +17,14 @@ const Info = () => {
     <br></br>
     <br></br>
 
-    <div className={'textbox'}>
-        <h2>BOX1</h2>
-        <p>/////  Lorem ipsum dolor sit amen consectetur adipisicing eliz. Ipsum eos bandits, pius dolores 
-            nunquam voluptuous! Impeder ream corrupt, repeal solita quos ad quad 
-            exercitation antique, labours Magna subscript rem statue!</p>
+    <div className='info4'>
+        <h1>Resume</h1>
+    <iframe className={'IF'} src="Ethan Langord Coding Resume2.pdf">
+        </iframe>
         
     </div>
     {/* make resume */}
-    
+     
    
 </div>
 };

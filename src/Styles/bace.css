@@ -93,8 +93,8 @@ body {
     flex-direction: column;
     border-radius: 5px;
     border-style: dashed;
-    margin: 2vw 4vw 2vw 14vw;
-    min-width: 25%;
+    margin: 2vw 4vw 2vw 10vw;
+    min-width: 32%;
     max-width: 15%;
     overflow-y: auto;
     padding: 0.4vw;
@@ -192,6 +192,24 @@ body {
     justify-items: center;
     font-size: 120%;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  }
+  body .info4 {
+    overflow-y: hidden;
+  }
+  body .info4 h1 {
+    text-align: center;
+    justify-items: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  }
+  body .info4 .IF {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 75%;
+    max-width: 60%;
+    height: 47vw;
+    margin: 1vw auto;
+    padding: 0.5vw;
   }
 }
 @media screen and (max-width: 920px) and (min-width: 250px) {
@@ -369,12 +387,22 @@ body {
     font-size: 120%;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
   }
-}
-
-/* .textbox p{
+  body .info4 {
+    overflow-y: hidden;
+  }
+  body .info4 h1 {
+    text-align: center;
+    justify-items: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  }
+  body .info4 .IF {
     display: flex;
-    justify-content:center;
     align-items: center;
-    align-items: flex-end;
-    height: 4rem;
-} *//*# sourceMappingURL=bace.css.map */
+    justify-content: center;
+    min-width: 100%;
+    max-width: 60%;
+    height: 150vw;
+    margin: 1vw auto;
+    padding: 0.5vw;
+  }
+}/*# sourceMappingURL=bace.css.map */

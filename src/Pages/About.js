@@ -14,7 +14,7 @@ const About = () => {
         <Link to="/Info">Resume</Link>
     </nav>
 {/* navbar */}
-    <br></br><br></br><br></br><br></br>
+    <br></br><br></br><br></br><br></br><br></br>
 {/* <h1>gallery page</h1>  */}
     
 <div className='container'>
@@ -22,8 +22,8 @@ const About = () => {
     <h2>Binge Bakery </h2>
 
         <p>
-            I lived in chelas washington and lived there 9 years.//\\Lorem ipsum dolor sit, amet consectetur 
-            adipisicing elit. 
+           I was a contributor for this project. Roger and I created this and it's a online Bakery that 
+           has many different sweets from different cultures. It also has it's own delivery survse.
             <a href='https://github.com/RogerRandomDev/BingeBakery.git'>github/BingeBakery</a>
         </p>
     </div>
@@ -31,8 +31,8 @@ const About = () => {
     <div className={'textboxS'}>
     <h2>sci-floors</h2>
         <p>
-            I lived in chelas washington and lived there 9 years.//\\Lorem ipsum dolor sit,
-            amet consectetur adipisicing elit.
+        I was a contributor for this project. This was my first group project and it was with Victor. It's 
+        an online store that sell's floor tiles.
             <a href='https://github.com/Victor-Malhotra/sci-floors.git'>github/sci-floors</a>
         </p>
     </div>
@@ -43,8 +43,7 @@ const About = () => {
 <div className={'textboxS'}>
     <h2>Tours</h2>
         <p>
-            I lived in chelas washington and lived there 9 years.//\\Lorem ipsum dolor sit, amet consectetur 
-            adipisicing elit. 
+            A work in progress website that has locations around the world and you could remove locations.
             <a href='https://github.com/captren501/Tours.git'>github/Tours</a>
         </p>
     </div>
@@ -52,8 +51,8 @@ const About = () => {
     <div className={'textboxS'}>
     <h2>poke</h2>
         <p>
-            I lived in chelas washington and lived there 9 years.//\\Lorem ipsum dolor sit,
-            amet consectetur adipisicing elit. 
+            This is a project I had with Roger and is a prelude to the Binge Bakery project. FOr this 
+            project we where asked to create a pokedex with one pokemon abd its 3 evolution forms.
             <a href='https://github.com/RogerRandomDev/poke.git'>github/poke</a>
         </p>
     </div>
