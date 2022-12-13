@@ -51,8 +51,9 @@ const About = () => {
     <div className={'textboxS'}>
     <h2>poke</h2>
         <p>
-            This is a project I had with Roger and is a prelude to the Binge Bakery project. FOr this 
-            project we where asked to create a pokedex with one pokemon abd its 3 evolution forms.
+            This is a project I had with Roger and is a prelude to the Binge Bakery project. For this 
+            project we where asked to create a pokedex with one pokemon and it's 3 evolution forms.
+            the majority of this project used JSON and showing all it's stats.
             <a href='https://github.com/RogerRandomDev/poke.git'>github/poke</a>
         </p>
     </div>

@@ -223,6 +223,14 @@ flex-direction: row;
     font-family: 'Lucida Sans', 'Lucida Sans Regular',
      'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     }
+
+    li{
+        margin: 0.5vw;
+        text-align: center;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
   }
 
   }
@@ -454,6 +462,12 @@ flex-direction: row;
         font-size: 120%;
         font-family: 'Lucida Sans', 'Lucida Sans Regular',
          'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        }
+        li{
+        text-align: center;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
         }
       }
     

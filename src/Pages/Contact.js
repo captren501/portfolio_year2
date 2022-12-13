@@ -43,7 +43,13 @@ const Contact = () => {
     {/* // document.getElementById("myInput").value = ''() */}
     </div>
         
-    <h2 className='textboxP3'>Lorem</h2>
+    <h2 className='textboxP3'>This is for contacting me if there is any thing that is import.
+    <h3>things that are import are.</h3>
+    <li>Job offers</li>
+    <li>family</li>
+    I don't check my email often so a response may take a while. If your sending spam emails; your email 
+    will be blocked.
+    </h2>
     {/* add text */}
 </div>
 
