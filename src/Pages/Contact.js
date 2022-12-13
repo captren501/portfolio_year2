@@ -9,15 +9,15 @@ const Contact = () => {
     useEffect(() => {
     }, [count]);
     
+// to reset the inputs
     function refresh() {
         window.location.reload();
     }
-    
-    
-    
+
     console.log("onClick")
 //start of HTML
     return <div>  
+    {/* the nav bar */}
 <nav className={'navbar'}>
         <Link to="/">Home</Link>
         <Link to="/About">Gallery</Link>
@@ -25,8 +25,8 @@ const Contact = () => {
         <Link to="/Info">Resume</Link>
 </nav>
 
-<br></br>
-<br></br><br></br><br></br><br></br>
+<br></br><br></br><br></br><br></br><br></br>
+
 <div className='container1'>
     <div className='gmail'>
         <p>First Name</p>
@@ -39,28 +39,24 @@ const Contact = () => {
         <textarea placeholder='message' maxLength={'200'} id="myInput"></textarea>
         <button onClick={() => {setCount((c) => c + 1);refresh()}}>Submit</button>
         <p>Submit: {count}</p>
-        {/* ask how to delete text in text box */}
-    {/* // document.getElementById("myInput").value = ''() */}
     </div>
         
     <h2 className='textboxP3'>This is for contacting me if there is any thing that is import.
-    <h3>things that are import are.</h3>
-    <li>Job offers</li>
-    <li>family</li>
-    I don't check my email often so a response may take a while. If your sending spam emails; your email 
-    will be blocked.
+        <h4>These could be</h4>
+        <li>Job offers</li>
+        <li>getting to know me</li>
+        <li>work</li>
+        <li>or a way to contact me</li>
+        <br></br> {/* To have a space */}
+        I don't check my email often so a response may take a while. If your sending spam emails; your email 
+        will be blocked.
     </h2>
-    {/* add text */}
+</div>  {/* end of container1 */}
+  
 </div>
+// end of HTML
 
-    
-
- </div>
-    {/* useState
-    useEffect
-    useReducer
-    useRef */}
-
+/* useState, useEffect */
 
 };
 

@@ -6,18 +6,19 @@ const About = () => {
 
 
 //start of HTML
-    return <div>     
+    return <div>
+        {/* navbar */}
         <nav className={'navbar'}>
         <Link to="/">Home</Link>
         <Link to="/About">Gallery</Link>
         <Link to="/Contact">Contact</Link>
         <Link to="/Info">Resume</Link>
     </nav>
-{/* navbar */}
+
     <br></br><br></br><br></br><br></br><br></br>
-{/* <h1>gallery page</h1>  */}
     
-<div className='container'>
+    {/* Fore boxes */}
+<div className='container'>    {/* so they can be put on two different sides */}
     <div className={'textboxS'}>
     <h2>Binge Bakery </h2>
 
@@ -36,10 +37,9 @@ const About = () => {
             <a href='https://github.com/Victor-Malhotra/sci-floors.git'>github/sci-floors</a>
         </p>
     </div>
+</div>{/* end oc container */}
 
-</div>
-
-<div className='container'>
+<div className='container'>     {/* so they can be put on two different sides */}
 <div className={'textboxS'}>
     <h2>Tours</h2>
         <p>
@@ -57,9 +57,10 @@ const About = () => {
             <a href='https://github.com/RogerRandomDev/poke.git'>github/poke</a>
         </p>
     </div>
-</div>
+</div> {/* end oc container */}
 
-</div>//nav div
+{/* end of HTML */}
+</div>
 };
 
 export default About;

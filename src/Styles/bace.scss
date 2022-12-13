@@ -13,7 +13,7 @@ body {
     margin-bottom: -4vh;
     flex-direction: column;
     display: flex;
-    // overflow:hidden;
+    overflow-x: hidden;
 @media screen and (min-width: 920px) and (max-width: 5000px) {
 
 
@@ -55,7 +55,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 30%;
+    min-width: 25%;
     max-width: 30%;
     margin: 1vw auto;
 
@@ -207,10 +207,10 @@ flex-direction: row;
     display: flex;
     justify-content:center;
     align-items: center;
+    text-align: center;
     flex-direction: column;
     border-style: solid; //set to invisible when completed
     margin: 12vh 3vw 12vh;
-
     overflow-y: auto;
     min-width: 40%;
     max-width: 30%;
@@ -218,14 +218,21 @@ flex-direction: row;
    
     p {
         text-align: center;
-    justify-items: center;
-    font-size: 120%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular',
-     'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    h4 {
+        margin: 0.7vw;
+        text-align: center;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
     }
 
     li{
-        margin: 0.5vw;
+        margin: 0.2vh .1vw .5vh .1vw;
         text-align: center;
         justify-items: center;
         align-items: center;
@@ -458,16 +465,25 @@ flex-direction: row;
        
         p {
             text-align: center;
-        justify-items: center;
-        font-size: 120%;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular',
-         'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+            justify-items: center;
+            align-items: center;
+            flex-direction: column;
         }
+    
+        h4 {
+            margin: 0.7vw;
+            text-align: center;
+            justify-items: center;
+            align-items: center;
+            flex-direction: column;
+        }
+       
         li{
-        text-align: center;
-        justify-items: center;
-        align-items: center;
-        flex-direction: column;
+            margin: 0.2vh .1vw .5vh .1vw;
+            text-align: center;
+            justify-items: center;
+            align-items: center;
+            flex-direction: column;
         }
       }
     
