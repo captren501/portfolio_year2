@@ -64,29 +64,31 @@ const handleClick2 = () =>{
     <div className={'textbox'}>
          <p>
           <h2>Who am I?</h2>
-          Hello my name is Ethan Langford and I'm 17 years old. I grue up in chelas washington in a family of 
+          Hello my name is Ethan Langford and I'm 17 years old. I grew up in Chehalis, Washington in a family of 
           <span className="readmore" id="dots" onClick={()=>handleClick()}>...{read}</span><span style={{display:"none"}} id="more">
-          eight. moved to phenix AZ eight years ago; now taking coding classes at west-mec and enrolled at 
-          Sandra day O'conner HS.</span></p>
+          eight. I moved to Phoenix, AZ eight years ago. I'm now taking coding classes at West-MEC and enrolled at 
+          Sandra Day O'Conner high school.</span></p>
     </div> 
 
     <div className={'textbox'}>
       <p>
-        <h2>Achements</h2>
-        I have a MTA certificate 
+        <h2>Achievements</h2>
+        November 15, 2021 - I was awarded the Sandra Day O'Connor Soaring Eagle Certificate for excellent growth.
+        February 12, 2022 - I placed 2nd in Business Ethics at the 2022 FBLA Arizona Regional Conference.
+         
         <span className="readmore" id="dots" onClick={()=>handleClick1()}>...{read1}</span><span style={{display:"none"}} id="more1">
-        text
+        May 18, 2022 - I successfully completed the requirements to be recognized as a Microsoft Technology Associate for
+        HTML5 Application Development Fundamentals.
         </span></p>
     </div>
 
     <div className={'textbox'}>
-    <h2>Work and volunteer time</h2>
+    <h2>Work and Volunteer Time</h2>
         <p>
-          I worked at hurcan harbor Six Flags for a summer job during 2022 but, now unemployed because I have 
-          put the time I would be abel too work
+          I worked at Hurricane Harbor Six Flags for a summer job during 2022, but now my job is studying 
           <span className="readmore" id="dots" onClick={()=>handleClick2()}>...{read2}</span><span style={{display:"none"}} id="more2">
-          is put into school. I have volunteer for many eagle scout projects, St. Mary's food bank, blood 
-          drive at west-mec, and Market On The Move. I've also volunteer at my church and assisted others in 
+          at school. I have volunteered for many Eagle Scout projects, St. Mary's food bank, a blood 
+          drive at West-MEC, and Market On The Move. I've also volunteered at my church and assisted others in 
           my neighborhood.
           </span></p>
     </div>

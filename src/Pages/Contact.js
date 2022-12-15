@@ -41,14 +41,14 @@ const Contact = () => {
         <p>Submit: {count}</p>
     </div>
         
-    <h2 className='textboxP3'>This is for contacting me if there is any thing that is import.
+    <h2 className='textboxP3'>This is for contacting me if there is any thing that is important.
         <h4>These could be</h4>
         <li>Job offers</li>
         <li>getting to know me</li>
         <li>work</li>
         <li>or a way to contact me</li>
         <br></br> {/* To have a space */}
-        I don't check my email often so a response may take a while. If your sending spam emails; your email 
+        I don't check my email often so a response may take a while. If you're sending spam emails; your email 
         will be blocked.
     </h2>
 </div>  {/* end of container1 */}
