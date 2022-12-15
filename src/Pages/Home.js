@@ -75,7 +75,6 @@ const handleClick2 = () =>{
         <h2>Achievements</h2>
         November 15, 2021 - I was awarded the Sandra Day O'Connor Soaring Eagle Certificate for excellent growth.
         February 12, 2022 - I placed 2nd in Business Ethics at the 2022 FBLA Arizona Regional Conference.
-         
         <span className="readmore" id="dots" onClick={()=>handleClick1()}>...{read1}</span><span style={{display:"none"}} id="more1">
         May 18, 2022 - I successfully completed the requirements to be recognized as a Microsoft Technology Associate for
         HTML5 Application Development Fundamentals.

@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import '../Styles/bace.css'
 import { Link } from "react-router-dom";
 
+// this is now the Gallery
 const About = () => {
-
 
 //start of HTML
     return <div>

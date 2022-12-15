@@ -17,9 +17,9 @@ const Info = () => {
     <br></br>
     <br></br>
 
-    <div className='info4'>
+    <div className='info'>
         <h1>Resume</h1>
-    <iframe className={'IF'} src="Ethan Langord Coding Resume2.pdf">
+    <iframe className={'resume'} src="Ethan Langord Coding Resume2.pdf">
         </iframe>
         
     </div>

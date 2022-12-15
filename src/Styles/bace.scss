@@ -1,5 +1,5 @@
 $navcolor: #808080;
-
+//color for navbar border
 
 body {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.61'%3E%3Cpolygon fill='%23333f37' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23395041' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%2340624a' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23467354' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%234C855E' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
@@ -14,9 +14,11 @@ body {
     flex-direction: column;
     display: flex;
     overflow-x: hidden;
+    
+    // styling for computers 
 @media screen and (min-width: 920px) and (max-width: 5000px) {
 
-
+//navbar and its links
  .navbar{
     max-width: 100%;
     min-width: 100%;
@@ -47,10 +49,12 @@ body {
         border-style: ridge;
         border-width: 0.25vw;
         user-select: none;
-        // position: fixed;
     }
  }
 
+// <-- STYLING FOR HOME PAGE -->
+
+//image styling
  .image{
     display: flex;
     align-items: center;
@@ -61,14 +65,15 @@ body {
 
 }
 
+// the text box styling for Home page
 .textbox {
     display: flex;
     justify-content:center;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
-    border-style: dashed;
-    border-color: rgb(129, 216, 151);
+    border-style: solid;
+    border-color: rgb(118, 196, 137);
     margin-top: 1vw;
     margin-bottom: 1vw;
     margin-left: 20vw;
@@ -86,25 +91,30 @@ body {
     h2{
         margin: 0.4vw;
     }
-    
+
+// color for the read more
+    .readmore {
+    color: rgb(73, 73, 255);
+    font-size: 80%;
+    }
 }
 
-.readmore {
-color: rgb(73, 73, 255);
-font-size: 80%;
-}
+// <-- STYLING FOR ABOUT PAGE -->
 
+// so textboxS is on the left and right
 .container{
     display: flex;
     flex-direction: row;
 
-.textboxS { /* small box */
+ //styling for text box on About page
+.textboxS {
     display: flex;
     justify-content:center;
     align-items: center;
     flex-direction: column;
     border-radius: 5px;
-    border-style: dashed;
+    border-color: rgb(81, 81, 200);
+    border-style: solid;
     margin: 2vw 4vw 2vw 10vw;
     min-width: 32%;
     max-width: 15%;
@@ -128,21 +138,14 @@ font-size: 80%;
     
 }
 
-}
+}//end of container
 
+// <-- STYLING FOR CONTACT PAGE -->
 
-.link {
-    display:flex;
-    justify-content: center;
-    border-color: aquamarine;
-    border: double;
-    flex-direction: column;
-}
-
+// so textboxP3 is on the left
 .container1{
 display: flex;
 flex-direction: row;
-
 
   .gmail {
     display: flex;
@@ -167,7 +170,6 @@ flex-direction: row;
     }
 
     input {
-        // border-color: green;
         border-radius: .1vw;
         border-style: none;
         padding: 0.7vw;
@@ -194,22 +196,22 @@ flex-direction: row;
     margin: 0;
     resize: none;
     min-height: 7vw;
-    // min-width: 10vw;
     min-width: 60%;
     align-self: center;
     justify-self: center; 
     background-color: #808080;
     color: whitesmoke;
     }
-}//end of gmail
+ }//end of gmail
 
-.textboxP3{
+ // the information on the left
+ .textboxP3{
     display: flex;
     justify-content:center;
     align-items: center;
     text-align: center;
     flex-direction: column;
-    border-style: solid; //set to invisible when completed
+    border-style: none;
     margin: 12vh 3vw 12vh;
     overflow-y: auto;
     min-width: 40%;
@@ -240,8 +242,13 @@ flex-direction: row;
     }
   }
 
-  }
-  .info4{
+}// end of container1
+
+
+// <-- STYLING FOR INFO PAGE -->
+
+//to prevent the y axis scroll
+  .info{
     overflow-y: hidden;
 
     h1 {
@@ -250,7 +257,8 @@ flex-direction: row;
     font-family: 'Lucida Sans', 'Lucida Sans Regular',
      'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     }
-        .IF {
+// styling for resume
+        .resume {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -261,14 +269,14 @@ flex-direction: row;
         padding: .5vw;
         
     }
-  }
-  
- 
-}
+  }// end of info
+   
+};
 
+// styling for mobile 
 @media screen and (max-width: 920px) and (min-width: 250px){
 
-    
+//navbar
     .navbar{
         max-width: 100%;
         width: 100vw;
@@ -302,6 +310,8 @@ flex-direction: row;
         }
      }
     
+// <-- STYLING FOR CONTACT HOME PAGE -->
+//image styling
      .image{
         display: flex;
         align-items: center;
@@ -311,7 +321,7 @@ flex-direction: row;
         margin: 1vw auto;
     
     }
-    
+//text box styling for home mobil
     .textbox {
         display: flex;
         justify-content:center;
@@ -319,7 +329,7 @@ flex-direction: row;
         flex-direction: column;
         border-radius: 10px;
         border-style: dashed;
-        border-color: rgb(129, 216, 151);
+        border-color: rgb(118, 196, 137);
         margin-top: 1vw;
         margin-bottom: 1vw;
         margin-left: 5vw;
@@ -337,22 +347,27 @@ flex-direction: row;
         h2{
             margin: 0.4vw;
         }
-        
-    }
-    
-    .readmore {
+
+//color to readmore
+        .readmore {
     color: rgb(73, 73, 255);
     font-size: 80%;
     }
+
+    }
     
-    
-    .textboxS { /* small box */
+// <-- STYLING FOR ABOUT PAGE -->
+
+
+//style text box for about mobil
+    .textboxS {
         display: flex;
         justify-content:center;
         align-items: center;
         flex-direction: column;
         border-radius: 5px;
-        border-style: dashed;
+        border-color: rgb(81, 81, 200);
+        border-style: solid;
         margin: 2vh auto;
         min-width: 80%;
         max-width: 50%;
@@ -375,21 +390,11 @@ flex-direction: row;
         }
         
     }
+    
 
+// <-- STYLING FOR CONTACT PAGE -->
 
-    .link {
-        display:flex;
-        justify-content: center;
-        border-color: aquamarine;
-        border: double;
-        flex-direction: column;
-    }
-    
-    // .container1{
-    // display: flex;
-    // flex-direction: row;
-    
-    
+// sending a email
       .gmail {
         display: flex;
         padding: 0;
@@ -415,7 +420,6 @@ flex-direction: row;
         }
     
         input {
-            // border-color: green;
             border-radius: .1vw;
             border-style: none;
             padding: 0.7vw;
@@ -442,7 +446,6 @@ flex-direction: row;
         margin: 0;
         resize: none;
         min-height: 7vw;
-        // min-width: 10vw;
         min-width: 60%;
         align-self: center;
         justify-self: center; 
@@ -451,12 +454,13 @@ flex-direction: row;
         }
     }//end of gmail
     
+//style text box content mobil
     .textboxP3{
         display: flex;
         justify-content:center;
         align-items: center;
         flex-direction: column;
-        border-style: solid; //set to invisible when completed
+        border-style: none;
         margin: 3vh auto;
         overflow-y: auto;
         min-width: 80%;
@@ -487,7 +491,11 @@ flex-direction: row;
         }
       }
     
-      .info4{
+
+      // <-- STYLING FOR INFO PAGE -->
+
+// to prevent mobil jank
+      .info{
         overflow-y: hidden;
     
         h1 {
@@ -496,8 +504,8 @@ flex-direction: row;
         font-family: 'Lucida Sans', 'Lucida Sans Regular',
          'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
         }
-
-            .IF {
+// styling for resume
+            .resume {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -507,7 +515,8 @@ flex-direction: row;
             margin: 1vw auto;
             padding: .5vw;
             
-        }
-      }
-    }
-}    
+        }//resume end 
+      }//info end 
+    };
+
+}// end of body
