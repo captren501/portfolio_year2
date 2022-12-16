@@ -1,11 +1,30 @@
 import { useState, useEffect } from 'react';
 import '../Styles/bace.css'
 import { Link } from "react-router-dom";
+// const nodemailer = require("nodemailer");
 
 const Contact = () => {
+    var Body=""
+    const sendEmail = () => {
+      sendEmail.send({
+        Host: "smtp.gmail.com",
+        Username: "Capt.rex64@gmail.com",
+        Password: "Smb1/3dw",
+        To: 'elangf725@west-mec.org',
+        From: "Capt.rex64@gmail.com",
+        Subject: "Email",
+        Body: Body,
+      })
+        .then(function (message) {
+          alert("mail sent successfully")
+        });
+    };
+
+    const words = (e) => {
+        Body = e.target.value
+    }
 
     const [count, setCount] = useState(0);
-    
     useEffect(() => {
     }, [count]);
     
@@ -26,21 +45,26 @@ const Contact = () => {
 </nav>
 
 <br></br><br></br><br></br><br></br><br></br>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 
 <div className='container1'>
     <div className='gmail'>
+        <form method="post">
         <p>First Name</p>
-        <input type={'text'} id="myInput"></input>
+        <input type={'text'} id="myInput" ></input>
         <p>Last Name</p>
-        <input type={'text'} id="myInput"></input>
+        <input type={'text'} id="myInput" ></input>
         <p>Email</p>
-        <input type={'email'} placeholder={'username'} id="myInput"></input>
+        <input type={'email'} placeholder={'username'} id="myInput" ></input>
         <p>Message</p>
-        <textarea placeholder='message' maxLength={'200'} id="myInput"></textarea>
-        <button onClick={() => {setCount((c) => c + 1);refresh()}}>Submit</button>
+        <textarea placeholder='message' maxLength={'200'} id="myInput" onChange={(e)=>words(e)}></textarea>
+        
+        <button onclick={()=>sendEmail()}>Submit</button>
+        </form>
         <p>Submit: {count}</p>
     </div>
-        
+
+        {/* onClick={() => {setCount((c) => c + 1);refresh()}} */}
     <h2 className='textboxP3'>This is for contacting me if there is any thing that is important.
         <h4>These could be</h4>
         <li>Job offers</li>
@@ -51,6 +75,12 @@ const Contact = () => {
         I don't check my email often so a response may take a while. If you're sending spam emails; your email 
         will be blocked.
     </h2>
+
+    
+
+        
+
+
 </div>  {/* end of container1 */}
   
 </div>

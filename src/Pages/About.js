@@ -22,6 +22,7 @@ const About = () => {
     <div className={'textboxS'}>
     <h2>Binge Bakery </h2>
 
+    <img src='https://res.cloudinary.com/doyugobwh/image/upload/v1671222141/binge_nzoz3j.png' alt='page' className='image1'></img>
         <p>
            I was a contributor for this project. Roger and I created this and it is an online Bakery that 
            has many different sweets from different cultures. It also has it's own delivery service.
@@ -31,6 +32,8 @@ const About = () => {
     
     <div className={'textboxS'}>
     <h2>sci-floors</h2>
+
+    <img src='https://res.cloudinary.com/doyugobwh/image/upload/v1671222164/sci_buraqd.png' alt='page' className='image1'></img>
         <p>
         I was a contributor for this project. This was my first group project and it was with Victor. It is 
         an online store that sells floor tiles.
@@ -42,6 +45,8 @@ const About = () => {
 <div className='container'>     {/* so they can be put on two different sides */}
 <div className={'textboxS'}>
     <h2>Tours</h2>
+
+    <img src='https://res.cloudinary.com/doyugobwh/image/upload/v1671222507/torrsbANK_v5hhqs.png' alt='page' className='image1'></img>
         <p>
             A work in progress website that has locations around the world and you can remove locations.
             <a href='https://github.com/captren501/Tours.git'>github/Tours</a>
@@ -50,6 +55,8 @@ const About = () => {
     
     <div className={'textboxS'}>
     <h2>poke</h2>
+    
+    <img src='https://res.cloudinary.com/doyugobwh/image/upload/v1671222157/poke_ii294j.png' alt='page' className='image1'></img>
         <p>
             This is a project I worked with Roger and it is a prelude to the Binge Bakery project. For this 
             project we were asked to create a pokedex with one pokemon and it's 3 evolution forms.

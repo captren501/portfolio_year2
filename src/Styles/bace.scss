@@ -135,6 +135,15 @@ body {
         align-items: center;
         flex-direction: column;
     }
+
+    .image1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 50%;
+        max-width: 30%;
+        margin: 1vw auto;
+    }
     
 }
 
