@@ -19,7 +19,7 @@ const Info = () => {
 
     <div className='info'>
         <h1>Resume</h1>
-    <iframe className={'resume'} src="Ethan Langord Coding Resume2.pdf">
+    <iframe title='Resume' className={'resume'} src="Ethan Langord Coding Resume2.pdf">
         </iframe>
         
     </div>
