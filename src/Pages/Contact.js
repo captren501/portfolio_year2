@@ -64,12 +64,12 @@ const Contact = () => {
         <p>Message</p>
         <textarea placeholder='message' maxLength={'200'} id="myInput" ></textarea>
         
-        <button value="Send Email">Submit</button>
+        <button onClick={() => {setCount((c) => c + 1);refresh()}} value="Send Email">Submit</button>
         </form>
         <p>Submit: {count}</p>
     </div>
 {/* onclick={()=>sendEmail()}  */}
-        {/* onClick={() => {setCount((c) => c + 1);refresh()}} */}
+        
     <h2 className='textboxP3'>This is for contacting me if there is any thing that is important.
         <h4>These could be</h4>
         <li>Job offers</li>

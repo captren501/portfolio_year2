@@ -1,18 +1,18 @@
-import { useState, useEffect} from 'react';
+import { useState } from 'react';
 import '../Styles/bace.css'
 import { Link } from "react-router-dom";
 
 const Home = () => {
 
   // js for the read more function
-  var dots = document.getElementById("dots");
-  var btnText = document.getElementById("myBtn");
+  // var dots = document.getElementById("dots");
+  // var btnText = document.getElementById("myBtn");
     const [read, setRead] = useState("read more");
     const [read1, setRead1] = useState("read more");
     const [read2, setRead2] = useState("read more");
-    var moreText = document.getElementById("more");
-    var moreText = document.getElementById("more1");
-    var moreText = document.getElementById("more2");
+    // var moreText2 = document.getElementById("more");
+    // var moreText1 = document.getElementById("more1");
+    // var moreText = document.getElementById("more2");
     const handleClick = () =>{
     if (read === "read more") {
       document.getElementById("more").style.display = "block";
